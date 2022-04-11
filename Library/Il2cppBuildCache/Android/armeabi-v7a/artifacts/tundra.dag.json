@@ -1,0 +1,132 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp G:/UnityProject/AllenKorn-ARBattleInfinity/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so",
+      "Action": "D:\\APPS\\Unity2020.3.29f1\\2020.3.29f1c1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARMv7\" --configuration=\"Release\" --outputpath=\"G:\\UnityProject\\AllenKorn-ARBattleInfinity\\Library\\Il2cppBuildCache\\Android\\armeabi-v7a\\Native\\armeabi-v7a\\libil2cpp.so\" --cachedirectory=\"G:\\UnityProject\\AllenKorn-ARBattleInfinity\\Assets\\..\\Library\\il2cpp_android_armeabi-v7a/il2cpp_cache\" --additional-include-directories=\"D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\bdwgc/include\" --additional-include-directories=\"D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\libil2cpp/include\" --baselib-directory=\"D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer\\Variations\\il2cpp\\Development\\StaticLibs\\armeabi-v7a\" --avoid-dynamic-library-copy --tool-chain-path=\"D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/Tools/MapFileParser/MapFileParser.exe --directory=G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed --generatedcppdir=G:/UnityProject/AllenKorn-ARBattleInfinity/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput --stats-output-dir=G:/UnityProject/AllenKorn-ARBattleInfinity/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppStats",
+      "Inputs": [
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/Unity.XR.ARCore.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/Unity.XR.ARFoundation.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/Unity.XR.Management.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.ARModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.XRModule.dll",
+        "D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/Tools/MapFileParser/MapFileParser.exe",
+        "D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Development/StaticLibs/armeabi-v7a/baselib.a",
+        "D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Development/StaticLibs/armeabi-v7a/libunityruntime.a",
+        "D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe"
+      ],
+      "Outputs": [
+        "G:/UnityProject/AllenKorn-ARBattleInfinity/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
+    },
+    {
+      "File": "D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
+    },
+    {
+      "File": "D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Development/StaticLibs/armeabi-v7a"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
+    },
+    {
+      "Path": "D:/APPS/Unity2020.3.29f1/2020.3.29f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Development/StaticLibs/armeabi-v7a",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
